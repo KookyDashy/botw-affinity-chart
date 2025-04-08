@@ -13,9 +13,14 @@ body {
 .tooltip {
   display: none;
   position: absolute;
-  background: #ffffffdd;
-  padding: 8px;
-  border: 1px solid #aaa;
+  background: #fefefe;
+  padding: 10px;
+  border: 1px solid #888;
   border-radius: 6px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
   pointer-events: none;
+  white-space: nowrap;
+  z-index: 1000;
 }
+
