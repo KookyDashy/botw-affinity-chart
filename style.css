@@ -5,9 +5,9 @@ body {
 .character-icon img {
   width: 64px;
   height: 64px;
-  border-radius: 0; /
+  border-radius: 0;
   margin: 10px;
-  object-fit: cover; /
+  object-fit: cover;
 }
 
 .tooltip {
