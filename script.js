@@ -13,8 +13,8 @@ function showTooltip(e, element) {
   `;
 
   tooltip.style.display = "block";
-  tooltip.style.left = e.pageX + 10 + "px";
-  tooltip.style.top = e.pageY + 10 + "px";
+  tooltip.style.left = e.pageX + 20 + "px";
+  tooltip.style.top = e.pageY + 20 + "px";
 }
 
 function hideTooltip() {
