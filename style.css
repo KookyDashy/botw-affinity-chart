@@ -35,3 +35,11 @@ body {
   z-index: 1000;
 }
 
+.race-icon {
+  width: 32px;
+  height: 32px;
+  display: block;
+  margin: 0 auto 6px auto;
+  opacity: 0.9;
+}
+
