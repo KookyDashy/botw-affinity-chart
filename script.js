@@ -4,8 +4,11 @@ function showTooltip(e, element) {
   const race = element.getAttribute("data-race");
   const location = element.getAttribute("data-location");
 
+  const raceImage = getRaceIcon(race);
+
   const tooltip = document.getElementById("tooltip");
   tooltip.innerHTML = `
+    <img src="${raceImage}" class="race-icon" alt="${race} symbol" />
     <strong>${name}</strong><br>
     <em>${subtitle}</em><br>
     Race: ${race}<br>
