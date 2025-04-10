@@ -19,10 +19,7 @@ body {
 
 
 .tooltip {
-  .character-icon {
-  display: inline-block;
-  width: 304px;
-  height: 304px;
+  display: none;
   position: absolute;
   background: #fefefe;
   padding: 10px;
@@ -33,6 +30,22 @@ body {
   pointer-events: none;
   white-space: nowrap;
   z-index: 1000;
+  max-width: 220px;
+}
+
+.character-icon {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+  padding: 0;
+}
+
+.character-icon img {
+  width: 64px;
+  height: 64px;
+  display: block;
+  object-fit: cover;
 }
 
 .race-icon {
@@ -42,4 +55,3 @@ body {
   margin: 0 auto 6px auto;
   opacity: 0.9;
 }
-
