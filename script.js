@@ -8,12 +8,13 @@ function showTooltip(e, element) {
 
   const tooltip = document.getElementById("tooltip");
   tooltip.innerHTML = `
-    <img src="${raceImage}" class="race-icon" alt="${race} symbol" />
-    <strong>${name}</strong><br>
-    <em>${subtitle}</em><br>
-    Race: ${race}<br>
-    Location: ${location}
-  `;
+  <img src="${raceImage}" class="race-icon" alt="${race} symbol" />
+  <strong>${name}</strong><br>
+  <em>${subtitle}</em><br>
+  Race: ${race}<br>
+  Location: ${location}
+`;
+
 
   tooltip.style.display = "block";
   tooltip.style.left = e.pageX + 20 + "px";
