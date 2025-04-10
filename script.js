@@ -28,15 +28,15 @@ function hideTooltip() {
 
 function getRaceIcon(race) {
   switch (race.toLowerCase()) {
-    case "hylian": return "icons/hylian-crest.png";
-    case "sheikah": return "icons/sheikah-eye.png";
-    case "goron": return "icons/goron-symbol.png";
-    case "zora": return "icons/zora-symbol.png";
-    case "rito": return "icons/rito-symbol.png";
-    case "gerudo": return "icons/gerudo-symbol.png";
-    case "yiga": return "icons/yiga-symbol.png";
-    case "korok": return "icons/korok-leaf.png";
-    default: return ""; 
+    case "sheikah": return "images/icons/sheikah-eye.png";
+    case "hylian": return "images/icons/hylian-crest.png";
+    case "goron": return "images/icons/goron-symbol.png";
+    case "zora": return "images/icons/zora-symbol.png";
+    case "rito": return "images/icons/rito-symbol.png";
+    case "gerudo": return "images/icons/gerudo-symbol.png";
+    case "yiga": return "images/icons/yiga-symbol.png";
+    case "korok": return "images/icons/korok-leaf.png";
+    default: return "";
   }
 }
 
